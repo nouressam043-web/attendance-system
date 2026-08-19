@@ -1,0 +1,14 @@
+​
+nourelhouda essam Abdelmonem​
+<!DOCTYPE html>
+<html>
+<head><title>Attendance History</title></head>
+<body>
+  <h2>Attendance Records</h2>
+  <ul>
+    {% for r in records %}
+      <li>{{ r[1] }} - {{ r[2] }} - {{ r[3] }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
