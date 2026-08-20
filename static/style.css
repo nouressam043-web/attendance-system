@@ -1,0 +1,88 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #a8edea, #fed6e3); /* pastel gradient */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+   
+    margin-bottom: 20px;
+    color: #007bff;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+}
+
+/* Form styling (login.html) */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f0f8ff;   /* light pastel blue */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+input, button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    display: block;
+}
+
+/* Inputs */
+input[type="text"] {
+    background-color: #fce3eb; 
+    color: #333;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+    background-color: #fdd872; /* coral button */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%;
+    margin: 15px auto;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #e63946; 
+}
+
+/* Attendance history list (history.html) */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+li {
+    background: #e0f7fa; 
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+}
+
+li:nth-child(even) {
+    background: #ffe4e1; 
+}
+
+li:hover {
+    background: #d1f2eb; 
+}
