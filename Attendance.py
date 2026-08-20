@@ -15,8 +15,8 @@ def init_db():
     if c.fetchone()[0] == 0:
         sample_records = [ 
             ("Nour", "2026-08-06", "present"),
-            ("Asser", "2026-08-06", "Absent"),
-            ("moaz", "2026-08-06", "Present")
+            ("Asser", "2026-08-09", "Absent"),
+            ("moaz", "2026-08-07", "Present")
         ]
         c.executemany("INSERT INTO attendance (user, date, status) VALUES (?, ?, ?)", sample_records)
     conn.commit()
